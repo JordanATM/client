@@ -1,5 +1,6 @@
 // src/components/ShiftForm.tsx
-import { FormEvent, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import type { FormEvent } from 'react';
 import type { Engineer, ShiftType } from '../types';
 import { getEngineers } from '../api/engineers';
 import { createShift } from '../api/shifts';

@@ -1,5 +1,6 @@
 // src/components/EngineerForm.tsx
-import { FormEvent, useState } from 'react';
+import type { FormEvent } from 'react';
+import { useState } from 'react';
 import { createEngineer } from '../api/engineers';
 
 interface EngineerFormProps {
